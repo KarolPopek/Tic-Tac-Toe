@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html lang = "pl">
+	<head>
+		<meta charset = "utf-8" />
+		<title>Tic-Tac-Toe</title>
+		<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&amp;subset=latin-ext" rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" />		
+		<link rel = "stylesheet" href = "style.css" type = "text/css" />
+	</head>
+	<body>
+		<div class = "container"> 
+			<div class = "plansza">
+				<div class= "pole1" id="pole1" onclick="klik1()"></div>
+				<div class= "pole2" id="pole2" onclick="klik2()"></div>
+				<div class= "pole3" id="pole3" onclick="klik3()"></div>
+				<div class= "pole4" id="pole4" onclick="klik4()"></div>
+				<div class= "pole5" id="pole5" onclick="klik5()"></div>
+				<div class= "pole6" id="pole6" onclick="klik6()"></div>
+				<div class= "pole7" id="pole7" onclick="klik7()"></div>
+				<div class= "pole8" id="pole8" onclick="klik8()"></div>
+				<div class= "pole9" id="pole9" onclick="klik9()"></div>
+			</div>
+			<div class= "gracz">
+				<div class= "tura" id="tura"></div>
+				<h1 id="gracz">Tura gracza:</h1>
+				<button onclick="load()" id="wygryw" class="btn btn-success"></button>
+			</div>
+		</div>
+		<script src = "tictactoe.js" ></script>
+	</body>
+</html>
